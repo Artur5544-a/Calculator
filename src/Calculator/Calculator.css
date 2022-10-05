@@ -1,0 +1,78 @@
+.calculator {
+    background-color: grey;
+    width: 250px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.calculator h1 {
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+}
+
+form input {
+    background-color: black;
+    border: 2px solid rgb(161, 160, 160);
+    font-size: 30px;
+    text-align: right;
+    height: 50px;
+    color: white;
+    margin: 5px 0;
+    width: 100%;
+}
+
+form input::placeholder {
+    margin: 5px;
+    color: rgb(252, 249, 249);
+}
+
+.cal-numbrs {
+    margin-top: 10px;
+    display: grid;
+    grid-gap: 15px 0;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: space-around;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #444343;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.btn:nth-child(-n+3) {
+    background: #91908e
+}
+
+.btn:nth-child(4) {
+    background: #e48800
+}
+
+.btn:nth-child(8) {
+    background: #e48800
+}
+
+.btn:nth-child(12) {
+    background: #e48800
+}
+
+.btn:nth-child(16) {
+    background: #e48800
+}
+
+.btn:nth-child(20) {
+    background: #e48800
+}
